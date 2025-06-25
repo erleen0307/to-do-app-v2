@@ -1,0 +1,146 @@
+/* Base Reset and Typography */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+    color: #F2F4F3;
+    font-size: 1.2rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Bg Change Button */
+#bgToggleBtn{
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* Input and Button Container */
+main {
+    text-align: center;
+}
+
+.layout{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Task Input */
+#newTaskInput {
+    width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    color: #290E64;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* All Buttons (Add, Toggle, Delete) */
+button {
+    height: 40px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #F2F4F3;
+    color: #290E64;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+/* Slightly larger buttons */
+#addTaskBtn, #clearAllBtn{
+    width: 110px;
+}
+
+/* Task Info Labels */
+.titles {
+    margin: 20px 0 10px;
+}
+
+.titles p {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+/* Completed Task Style */
+.completed-task {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+/* Task List Container */
+.taskDiv {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    width: 600px;
+    min-height: 100px;
+}
+
+/* Each Task Entry */
+.taskDiv div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.taskDiv span {
+    flex: 1;
+    margin: 0 10px;
+    word-wrap: break-word;
+}
+
+
+/* Media Responsiveness */
+@media (max-width: 500px) {
+    #newTaskInput, .taskDiv {
+        width: 90%;
+    }
+    button {
+        width: auto;
+    }
+    button {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .layout {
+        flex-direction: column;
+    }
+
+}
+
+/* Built with love by erleen0307 */
