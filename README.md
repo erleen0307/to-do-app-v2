@@ -10,6 +10,14 @@ A clean, responsive, and persistent to-do list web app built with **HTML**, **CS
 
 ---
 
+## 📸 Preview
+
+![To-Do App Screenshot](screenshot1.png) 
+
+![To-Do App Screenshot](screenshot2.png) 
+
+---
+
 ## 🚀 Features
 
 - ✅ Add, toggle, and delete tasks
@@ -19,12 +27,6 @@ A clean, responsive, and persistent to-do list web app built with **HTML**, **CS
 - 📱 Responsive design (mobile-friendly)
 - 🎨 Stylish UI with background image and glass-effect panel
 - 🖥️ Built with object-oriented JavaScript (OOP)
-
----
-
-## 📸 Preview
-
-![To-Do App Screenshot](screenshot.png) 
 
 ---
 
