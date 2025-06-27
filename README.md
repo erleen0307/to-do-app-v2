@@ -66,6 +66,7 @@ to-do-app-v2/
 
 ## 🙋‍♂️ Author
 
+### 📅 Date Completed: June 26, 2025
 **Built with love by [erleen0307](https://github.com/erleen0307)**  
 
 ---
