@@ -124,23 +124,14 @@ button {
     word-wrap: break-word;
 }
 
-
 /* Media Responsiveness */
-@media (max-width: 500px) {
-    #newTaskInput, .taskDiv {
+@media (max-width: 768px){
+    .layout{
+        flex-direction: column;   
+    }
+    .taskDiv{
         width: 90%;
     }
-    button {
-        width: auto;
-    }
-    button {
-        width: 100%;
-        margin-top: 8px;
-    }
-    .layout {
-        flex-direction: column;
-    }
-
 }
 
 /* Built with love by erleen0307 */
